@@ -38,7 +38,7 @@ export default function Pageinfo() {
           >
             <Text>PITCH DECK</Text>
             <Text fontSize="0.5em">/</Text>
-            <Text>SEPTEMBER 2023</Text>
+            <Text>MONTH 20XX</Text>
           </Flex>
         </Fade>
       )}
