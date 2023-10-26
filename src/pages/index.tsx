@@ -1006,7 +1006,7 @@ export default function Scene({ ...props }) {
           animateOpacity
           transition={{ enter: { duration: 0.5 } }}
         >
-          <Box fontSize={"0.85em"}>
+          <Box fontSize={"0.85em"} ml={1}>
             <Text fontSize="3.5em" lineHeight="2em">
               FUNDING
             </Text>
