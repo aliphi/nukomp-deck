@@ -1,0 +1,19 @@
+@media (orientation: portrait) {
+  .blocker {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: calc(var(--vh, 1vh) * 100);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4a4a4;
+    z-index: 2000;
+  }
+}
+
+@media (orientation: landscape) {
+  .blocker {
+    display: none;
+  }
+}
